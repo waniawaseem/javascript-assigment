@@ -1,3 +1,5 @@
+//question#1
+alert("Welcome to js")
 //question#2
 // alert("Error! Please enter valid password");
 
@@ -9,4 +11,5 @@
 // alert("Happy Coding!")
 
 //question#5
-//alert("Hello.. I can run JS through my web browser's console")
+alert("Hello... I can run js through my web browser's console")
+console.log("hello... I can run js through my web browser's console");
