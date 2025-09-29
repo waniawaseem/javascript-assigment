@@ -1,11 +1,32 @@
 //question # 1
-//question # 2
-//question # 3
-//question # 4
-//question # 5
-//question # 6
-//question # 7
+// let studentNames=[];
 
+//question # 2
+// let studentsName= new Array();
+
+//question # 3
+// let stringArray = [apple,mango,banana,orange,grapes]
+// console.log(stringArray);
+
+//question # 4
+// let numbersArray=[1,2,3,4,5,6,7,8,9,0]
+// console.log(numbersArray);
+
+//question # 5
+// let booleanArray = [true,false,true,false]
+// console.log(booleanArray);
+
+//question # 6
+// let mixedArray = [1,apple,false,Pink,0]
+// console.log(mixedArray);
+
+//question # 7
+// let educationQualification = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"]
+// document.write("<h1>Education Qualification in Pakistan:</h1>")
+// for (let i=0; i<educationQualification.length; i++){
+//      document.write(`${i + 1}) ${educationQualifications[i]} <br>`);
+//     console.log((i + 1) + ") " + educationQualifications[i]);
+// }
 
 //question # 8
 // var studentsName=["Wania", "zoha", "haya"];

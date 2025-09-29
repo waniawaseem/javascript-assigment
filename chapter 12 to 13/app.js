@@ -1,4 +1,19 @@
 // question # 1
+// let character = prompt("Enter a character:");
+// let ascii = character.charCodeAt(0);
+// if(ascii >=48 && ascii<=57){
+//     alert("The input is a Number.");
+// }
+// else if (ascii >= 65 && ascii <=90 ){
+//       alert("The input is an Uppercase Letter.");
+// }
+// else if(ascii >=97 && ascii <= 112){
+//      alert("The input is a Lowercase Letter.");
+// }
+// else{
+//      alert("The input is neither a number nor a letter.");
+// }
+
 // question # 2
 // let num1= +prompt(`Enter first integer:`)
 // let num2= +prompt(`Enter second integer:`)
@@ -11,6 +26,7 @@
 //     else {
 //       alert("Both numbers are equal");
 //     }
+
 // question # 3
 // let num= +prompt(`Enter the Number`)
 // if (num > 0) {
@@ -22,7 +38,19 @@
 //     else {
 //       alert("The number is Zero");
 //     }
+
 // question # 4
+// let char = prompt("Enter a character");
+
+// char = char.toLowerCase();
+
+// if(char ==="a" || char ==="e" || char ==="i" || char ==="o" || char ==="u"  ){
+//     alert(true);
+// }
+// else{
+//     alert(false);
+// }
+
 // question # 5
     // var correctPassword = "abc123";
 
