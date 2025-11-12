@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <!-- question # 1 -->
+    <a href="#" onclick="showAlert()">Click Me</a>
+<!-- question # 2 -->
+<h3>Mobile Gallery</h3>
+  <img src="images/images (1).jpeg" onclick="showMsg('Samsung')" alt="Samsung">
+  <img src="images/images (2).jpeg" onclick="showMsg('iPhone')" alt="iPhone">
+  <img src="images/3459.png_1200.png" onclick="showMsg('Oppo')" id="img1" alt="Oppo">
+<!-- question # 3 -->
+<table id="studentTable">
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td>0</td><td>Jhone</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>1</td><td>Doe</td><td>9</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>2</td><td>Mark</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>3</td><td>James</td><td>8</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>4</td><td>Wania</td><td>9</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>5</td><td>Ali</td><td>10</td><td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+  </table>
+
+  <!-- question # 4 -->
+   <h3>Hover to Change Image</h3>
+  <img
+    id="myImage"
+    src="images/images (1).jpeg"
+    onmouseover="changeImage()"
+    onmouseout="resetImage()"
+  >
+   <!-- question # 5 -->
+    <h3>Counter Example</h3>
+  <h2 id="counter">0</h2>
+  <button onclick="increase()">Increase</button>
+  <button onclick="decrease()">Decrease</button>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
